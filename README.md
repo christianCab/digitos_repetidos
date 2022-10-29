@@ -8,6 +8,7 @@
     <h1>Problema del TP N°8 </h1>
     <div>
     <h1><b>Ejercicio N°2: </b> Enunciado </h1>
+        Programa realizado en el lenguaje de programación PASCAL.<br>
         Un número natural tiene dígitos repetidos cuando alguno de sus dígitos aparece más de una vez.<br>
         Ejemplos:<br>
         Tienen dígitos repetidos 808, 33 y 100.<br>
