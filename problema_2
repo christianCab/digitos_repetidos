@@ -18,20 +18,30 @@ function repetidos(num:integer):boolean;
   var
     dig:integer; 
     hay:boolean;
+    
   function pertenece(dig,num:integer):boolean;
   var
+    cant,ultimo:integer;
     condicion:boolean;
   begin
-  if(dig=num)then
+  cant:=0;
+  while(num<>0)do
+    begin
+    ultimo:=num MOD 10;
+    num:=num div 10;
+    if(ultimo=dig)then
+        cant:=cant+1;
+    end;
+  if (cant>=1)then
     condicion:=true
   else
     condicion:=false;
   pertenece:=condicion;
   end;
-  
+  //---------------------------------------------------
   begin
   hay:=false;
-  while(num>0)and not(hay)do
+  while(num<>0)and not(hay)do
     begin
     dig:=num MOD 10;//ultimo numero del num ingresado, que es la iteracipion del programa global 
     num:=num DIV 10;//descompongo el iterador para controlar
