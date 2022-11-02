@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Resolución de problemas y algoritmos</title>
 </head>
 <body>
     <h1>Problema del TP N°8 </h1>
